@@ -1,4 +1,6 @@
 /* MODAL FORM  */
+
+// черный фон
 .backdrop {
   position: fixed;
   top: 0;
@@ -35,6 +37,7 @@
   transition: transform var(--duration) var(--timing-function);
 }
 
+// кнопка закрытия
 .modal-button__close {
   position: absolute;
   top: 8px;
@@ -50,8 +53,8 @@
   justify-content: center;
   align-items: center;
 
-  &:hover &__icon,
-  &:focus &__icon {
+  &:hover .modal-button__icon,
+  &:focus .modal-button__icon {
     fill: #2196f3;
   }
 
@@ -125,6 +128,7 @@
   left: 12px;
   transition: fill var(--duration) var(--timing-function);
 }
+
 /* Коментарий */
 .modal-form__coments {
   margin-bottom: 20px;
@@ -157,6 +161,7 @@
 }
 
 /* Checkbox style */
+
 .modal-form__policy {
   display: flex;
   margin-left: 13px;
